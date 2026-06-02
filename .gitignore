@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local SQLite database (not for production)
+/db/*.db
+/db/*.db-journal
+/db/*.db-wal
+/db/*.db-shm
+
 
 # typescript
 *.tsbuildinfo
